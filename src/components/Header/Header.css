@@ -1,0 +1,28 @@
+.header {
+    background-color:black;
+    display:flex;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+}
+
+.headerLeft {
+    margin-left: 20px;
+}
+
+h2 {
+    color:white;
+}
+
+.headerNav {
+    display:flex;
+    margin: 0 10px 0 auto;
+}
+
+.headerBtn {
+    color: white;
+    font-size: large;
+}
