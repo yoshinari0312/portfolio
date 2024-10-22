@@ -1,7 +1,9 @@
+import { Card, CardActionArea } from "@mui/material"
+
 export const WorkCard = ({children}) => {
   return (
-    <div style={{backgroundColor:"white"}}>
+    <Card sx={{ maxWidth: 400 }}>
       {children}
-    </div>
+    </Card>
   )
 }

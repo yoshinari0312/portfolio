@@ -1,8 +1,12 @@
-export const WorkImg = ({src, alt, children}) => {
+import { CardMedia } from "@mui/material"
+
+export const WorkImg = ({image, alt}) => {
   return (
-    <div style={{position:"relative"}}>
-      <img src={src} alt={alt} style={{width:"100px", height:"auto"}}/>
-      <p style={{position:"absolute", bottom:"10px", left:"10px", fontWeight:"bold"}}>{children}</p>
-    </div>
+    <CardMedia
+      component="img"
+      width="100"
+      image={image}
+      alt={alt}
+    />
   )
 }

@@ -13,21 +13,21 @@ export const Internship = () => {
       <TitleHeader>Affiliation/Internship</TitleHeader>
       <Intern>
         <div>
-          <InternImg src="../img/imaiLogo.JPG" alt="imaiLogo"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/imaiLogo.png`} alt="imaiLogo"></InternImg>
         </div>
         <div>
           <InternCompany>今井倫太研究室（2023年2月〜現在）</InternCompany>
           <InternType>研究</InternType>
           <InternDetail>
             {["人間とロボットの多人数会話におけるロボットの会話システムについて生成AIを用いて研究中",
-              "人間1人とロボット2体 or 人間2人とロボット1体の3人での会話で、ロボットが3人の仲の良さを考慮しながら会話ができるようにする会話システムを生成AIを活用して開発",
+              "人間1人とロボット2体 or 人間2人とロボット1体の三者会話において、ロボットが3人の仲の良さを考慮しながら会話ができるようにする会話システムを開発",
               "国内学会発表"]}
           </InternDetail>
         </div>
       </Intern>
       <Intern>
         <div>
-          <InternImg src="../img/Technium.png" alt="technium"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/Technium.png`} alt="technium"></InternImg>
         </div>
         <div>
           <InternCompany>テクニウム株式会社（2023年4月〜現在）</InternCompany>
@@ -40,19 +40,21 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src="../img/NRI.jpg" alt="nri"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/NRI.jpg`} alt="nri"></InternImg>
         </div>
         <div>
           <InternCompany>野村総合研究所（2weeks）</InternCompany>
           <InternType>サマーインターンシップ</InternType>
           <InternDetail>
-            {["ReactとAWSを用いて〜を開発"]}
+            {["ReactやAWS、生成AI（RAG）を用いてAIチャットボットをチーム開発",
+              "音声認識、音声合成を用いることで、AI電話も可能に！",
+              "施策立案から設計、開発まで一気通貫で実施"]}
           </InternDetail>
         </div>
       </Intern>
       <Intern>
         <div>
-          <InternImg src="../img/NTTData.jpg" alt="nttdata"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/NTTData.jpg`} alt="nttdata"></InternImg>
         </div>
         <div>
           <InternCompany>株式会社NTT DATA（5days）</InternCompany>
@@ -64,19 +66,21 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src="../img/hitachi.avif" alt="hitachi"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/hitachi.jpg`} alt="hitachi"></InternImg>
         </div>
         <div>
           <InternCompany>株式会社 日立製作所（2weeks）</InternCompany>
           <InternType>サマーインターンシップ</InternType>
           <InternDetail>
-            {[""]}
+            {["設計書の品質チェックを生成AIによって自動化",
+              "RAGだけでなく、GraphRAGという最新技術を用いた検証も実施",
+              "80%のチェックリストをAIがチェック可能に"]}
           </InternDetail>
         </div>
       </Intern>
       <Intern>
         <div>
-          <InternImg src="../img/accenture.png" alt="accenture"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/accenture.png`} alt="accenture"></InternImg>
         </div>
         <div>
           <InternCompany>アクセンチュア株式会社（5days）</InternCompany>
@@ -88,31 +92,21 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src="../img/NSSOL.png" alt="NSSOL"></InternImg>
-        </div>
-        <div>
-          <InternCompany>日鉄ソリューションズ株式会社（5days）</InternCompany>
-          <InternType>サマーインターンシップ</InternType>
-          <InternDetail>
-            {[""]}
-          </InternDetail>
-        </div>
-      </Intern>
-      <Intern>
-        <div>
-          <InternImg src="../img/MUFG.JPG" alt="MUFG"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/MUFG.JPG`} alt="MUFG"></InternImg>
         </div>
         <div>
           <InternCompany>三菱UFJ銀行（3days）</InternCompany>
           <InternType>サマーインターンシップ</InternType>
           <InternDetail>
-            {["新規事業立案ワークを実施", "企画、設計、体制検討をチームでおこなった"]}
+            {["システムデジタルコースに参加",
+              "新規事業立案ワークを実施", 
+              "企画、設計、体制検討をチームでおこなった"]}
           </InternDetail>
         </div>
       </Intern>
       <Intern>
         <div>
-          <InternImg src="../img/AWS.JPG" alt="AWS"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/AWS.JPG`} alt="AWS"></InternImg>
         </div>
         <div>
           <InternCompany>アマゾン ウェブ サービス ジャパン株式会社（1day）</InternCompany>

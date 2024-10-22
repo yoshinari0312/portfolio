@@ -49,7 +49,7 @@ export const About = () => {
           />
         </Timeline>
         <div className='aboutPicture'>
-          <Avatar alt="顔写真" src="../img/fac.jpg" sx={{ width: 250, height: 250}} />
+          <Avatar alt="顔写真" src={`${process.env.PUBLIC_URL}/img/face2.jpg`} sx={{ width: 250, height: 250}} />
           <p>小野寺佳成</p>
         </div>
       </div>
