@@ -92,7 +92,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/MUFG.JPG`} alt="MUFG"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/MUFG.jpg`} alt="MUFG"></InternImg>
         </div>
         <div>
           <InternCompany>三菱UFJ銀行（3days）</InternCompany>
@@ -106,7 +106,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/AWS.JPG`} alt="AWS"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/AWS.jpg`} alt="AWS"></InternImg>
         </div>
         <div>
           <InternCompany>アマゾン ウェブ サービス ジャパン株式会社（1day）</InternCompany>
