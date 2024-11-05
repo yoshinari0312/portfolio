@@ -6,7 +6,7 @@ export const Header = () => {
     <header>
       <div className="header">
         <div className="headerLeft">
-          <h2>Yoshinari's Portfolio</h2>
+          <h2>Onodera's Portfolio</h2>
         </div>
         <div className="headerNav">
           <HeaderButton href="#">Home</HeaderButton>

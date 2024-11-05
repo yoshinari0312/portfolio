@@ -1,5 +1,5 @@
-import { Timeline, timelineItemClasses } from '@mui/lab';
 import "./About.css"
+import { Timeline, timelineItemClasses } from '@mui/lab';
 import { Avatar } from '@mui/material';
 import { TitleHeader } from '../common/TitleHeader';
 import { Link } from '../common/Link';
