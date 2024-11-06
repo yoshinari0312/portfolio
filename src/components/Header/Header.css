@@ -19,10 +19,17 @@ h2 {
 
 .headerNav {
     display:flex;
-    margin: 0 10px 0 auto;
+    margin: 0 20px 0 auto;
 }
 
 .headerBtn {
     color: white;
     font-size: large;
+}
+
+/* 小さい画面（スマホなど）ではヘッダーのタイトルを非表示に */
+@media (max-width: 600px) {
+    .headerLeft h2 {
+        display: none;
+    }
 }

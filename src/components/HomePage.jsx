@@ -7,7 +7,7 @@ import { Skills } from './Skills/Skills';
 
 export function HomePage() {
   return (
-    <Box className="HomePage">
+    <Box id="home">
       <Header/>
       <About/>
       <Internship/>
