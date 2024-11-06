@@ -14,7 +14,7 @@ export const Internship = () => {
       <TitleHeader>Affiliation / Internship</TitleHeader>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/imaiLogo.png`} alt="imaiLogo"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/InternImages/imaiLogo.png`} alt="imaiLogo"></InternImg>
         </div>
         <InternContent>
           <InternCompany>今井倫太研究室（2023年2月〜現在）</InternCompany>
@@ -28,7 +28,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/Technium.png`} alt="technium"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/InternImages/Technium.png`} alt="technium"></InternImg>
         </div>
         <InternContent>
           <InternCompany>テクニウム株式会社（2023年4月〜現在）</InternCompany>
@@ -41,7 +41,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/NRI.jpg`} alt="nri"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/InternImages/NRI.jpg`} alt="nri"></InternImg>
         </div>
         <InternContent>
           <InternCompany>株式会社 野村総合研究所（2weeks）</InternCompany>
@@ -55,7 +55,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/NTTData.jpg`} alt="nttdata"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/InternImages/NTTData.jpg`} alt="nttdata"></InternImg>
         </div>
         <InternContent>
           <InternCompany>株式会社 NTTデータ（5days）</InternCompany>
@@ -68,7 +68,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/hitachi.jpg`} alt="hitachi"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/InternImages/hitachi.jpg`} alt="hitachi"></InternImg>
         </div>
         <InternContent>
           <InternCompany>株式会社 日立製作所（2weeks）</InternCompany>
@@ -82,7 +82,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/accenture.png`} alt="accenture"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/InternImages/accenture.png`} alt="accenture"></InternImg>
         </div>
         <InternContent>
           <InternCompany>アクセンチュア株式会社（5days）</InternCompany>
@@ -96,7 +96,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/MUFG.jpg`} alt="MUFG"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/InternImages/MUFG.jpg`} alt="MUFG"></InternImg>
         </div>
         <InternContent>
           <InternCompany>株式会社 三菱UFJ銀行（3days）</InternCompany>
@@ -110,7 +110,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/AWS.jpg`} alt="AWS"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/InternImages/AWS.jpg`} alt="AWS"></InternImg>
         </div>
         <InternContent>
           <InternCompany>アマゾン ウェブ サービス ジャパン株式会社（1day）</InternCompany>
@@ -122,7 +122,7 @@ export const Internship = () => {
       </Intern>
       <Intern>
         <div>
-          <InternImg src={`${process.env.PUBLIC_URL}/img/JRI.png`} alt="jri"></InternImg>
+          <InternImg src={`${process.env.PUBLIC_URL}/img/InternImages/JRI.png`} alt="jri"></InternImg>
         </div>
         <InternContent>
           <InternCompany>株式会社 日本総合研究所（2days）</InternCompany>

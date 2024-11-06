@@ -27,7 +27,7 @@ export const Works = () => {
       <TitleHeader>Works</TitleHeader>
       <WorkLayout>
         <WorkCard>
-          <WorkImg image={`${process.env.PUBLIC_URL}/img/RelBot.jpg`} alt="RelBot"/>
+          <WorkImg image={`${process.env.PUBLIC_URL}/img/WorkImages/RelBot.jpg`} alt="RelBot"/>
           <CardContent sx={{px:2, pt:1, pb:0}}>
             <WorkTitle>関係性を考慮して会話できるロボット</WorkTitle>
             <WorkType>研究</WorkType>
@@ -64,7 +64,7 @@ export const Works = () => {
           </CardActions>
         </WorkCard>
         <WorkCard>
-          <WorkImg image={`${process.env.PUBLIC_URL}/img/Skillup.jpg`} alt="Skillup"/>
+          <WorkImg image={`${process.env.PUBLIC_URL}/img/WorkImages/Skillup.jpg`} alt="Skillup"/>
           <CardContent sx={{px:2, pt:1, pb:0}}>
             <WorkTitle>企業のプロモーションサイト</WorkTitle>
             <WorkType>長期インターンシップ</WorkType>
@@ -82,7 +82,7 @@ export const Works = () => {
           </CardActions>
         </WorkCard>
         <WorkCard>
-          <WorkImg image={`${process.env.PUBLIC_URL}/img/Automate.jpg`} alt="Automate"/>
+          <WorkImg image={`${process.env.PUBLIC_URL}/img/WorkImages/Automate.jpg`} alt="Automate"/>
           <CardContent sx={{px:2, pt:1, pb:0}}>
             <WorkTitle>社内業務の効率化システム</WorkTitle>
             <WorkType>長期インターンシップ</WorkType>
@@ -95,7 +95,7 @@ export const Works = () => {
           </CardContent>
         </WorkCard>
         <WorkCard>
-          <WorkImg image={`${process.env.PUBLIC_URL}/img/interactiveSmartClerk.jpg`} alt="RelBot"/>
+          <WorkImg image={`${process.env.PUBLIC_URL}/img/WorkImages/interactiveSmartClerk.jpg`} alt="RelBot"/>
           <CardContent sx={{px:2, pt:1, pb:0}}>
             <WorkTitle>服推薦ロボット</WorkTitle>
             <WorkType>研究</WorkType>
@@ -116,7 +116,7 @@ export const Works = () => {
           </CardActions>
         </WorkCard>
         <WorkCard>
-          <WorkImg image={`${process.env.PUBLIC_URL}/img/AIChatBot.png`} alt="AIChatBot"/>
+          <WorkImg image={`${process.env.PUBLIC_URL}/img/WorkImages/AIChatBot.png`} alt="AIChatBot"/>
           <CardContent sx={{px:2, pt:1, pb:0}}>
             <WorkTitle>AIチャットボット</WorkTitle>
             <WorkType>サマーインターンシップ</WorkType>
@@ -129,7 +129,7 @@ export const Works = () => {
           </CardContent>
         </WorkCard>
         <WorkCard>
-          <WorkImg image={`${process.env.PUBLIC_URL}/img/FintechApp.png`} alt="FintechApp"/>
+          <WorkImg image={`${process.env.PUBLIC_URL}/img/WorkImages/FintechApp.png`} alt="FintechApp"/>
           <CardContent sx={{px:2, pt:1, pb:0}}>
             <WorkTitle>銀行&家計簿Androidアプリ</WorkTitle>
             <WorkType>サマーインターンシップ</WorkType>
@@ -142,7 +142,7 @@ export const Works = () => {
           </CardContent>
         </WorkCard>
         <WorkCard>
-          <WorkImg image={`${process.env.PUBLIC_URL}/img/documentReview.jpg`} alt="documentReview"/>
+          <WorkImg image={`${process.env.PUBLIC_URL}/img/WorkImages/documentReview.jpg`} alt="documentReview"/>
           <CardContent sx={{px:2, pt:1, pb:0}}>
             <WorkTitle>設計書のレビューを生成AIで自動化</WorkTitle>
             <WorkType>サマーインターンシップ</WorkType>
@@ -155,7 +155,7 @@ export const Works = () => {
           </CardContent>
         </WorkCard>
         <WorkCard>
-          <WorkImg image={`${process.env.PUBLIC_URL}/img/portfolio.jpg`} alt="portfolio"/>
+          <WorkImg image={`${process.env.PUBLIC_URL}/img/WorkImages/portfolio.jpg`} alt="portfolio"/>
           <CardContent sx={{px:2, pt:1, pb:0}}>
             <WorkTitle>ポートフォリオ（本サイト）</WorkTitle>
             <WorkType>個人開発</WorkType>
