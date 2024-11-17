@@ -35,6 +35,7 @@ export const Skills = () => {
   const learningSkills = [
     { imageUrl: `${baseImageUrl}/C.svg`, name: "C" },
     { imageUrl: `${baseImageUrl}/CSharp.svg`, name: "C#" },
+    { imageUrl: `${baseImageUrl}/TypeScript.svg`, name: "TypeScript" },
     { imageUrl: `${baseImageUrl}/MATLAB.svg`, name: "MATLAB" },
     { imageUrl: `${baseImageUrl}/Unity.svg`, name: "Unity" },
     { imageUrl: `${baseImageUrl}/Docker.svg`, name: "Docker" },
