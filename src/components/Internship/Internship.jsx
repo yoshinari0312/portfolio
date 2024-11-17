@@ -47,16 +47,6 @@ export const Internship = () => {
       ]
     },
     {
-      imgSrc: `${baseImageUrl}/NTTData.jpg`,
-      alt: "nttdata",
-      company: "株式会社 NTTデータ（5days）",
-      type: "サマーインターンシップ",
-      details: [
-        "大手銀行向けのCXデザイン提案ワーク",
-        "ローコード体験"
-      ]
-    },
-    {
       imgSrc: `${baseImageUrl}/hitachi.jpg`,
       alt: "hitachi",
       company: "株式会社 日立製作所（2weeks）",
@@ -65,6 +55,16 @@ export const Internship = () => {
         "設計書の品質チェックを生成AIによって自動化",
         "RAGだけでなく、GraphRAGという最新技術を用いた検証も実施",
         "80%のチェックリストをAIがチェック可能に"
+      ]
+    },
+    {
+      imgSrc: `${baseImageUrl}/NTTData.jpg`,
+      alt: "nttdata",
+      company: "株式会社 NTTデータ（5days）",
+      type: "サマーインターンシップ",
+      details: [
+        "大手銀行向けのCXデザイン提案ワーク",
+        "ローコード体験"
       ]
     },
     {
@@ -89,15 +89,7 @@ export const Internship = () => {
         "企画、設計、体制検討をチームでおこなった"
       ]
     },
-    {
-      imgSrc: `${baseImageUrl}/AWS.jpg`,
-      alt: "AWS",
-      company: "アマゾン ウェブ サービス ジャパン株式会社（1day）",
-      type: "サマーインターンシップ",
-      details: [
-        "AWSのサービスを活用したハンズオンワーク"
-      ]
-    },
+
     {
       imgSrc: `${baseImageUrl}/JRI.png`,
       alt: "jri",
@@ -106,6 +98,15 @@ export const Internship = () => {
       details: [
         "銀行アプリの機能と家計簿アプリの機能を組み合わせたAndroidアプリの開発",
         "アジャイル開発を経験"
+      ]
+    },
+    {
+      imgSrc: `${baseImageUrl}/AWS.jpg`,
+      alt: "AWS",
+      company: "アマゾン ウェブ サービス ジャパン株式会社（1day）",
+      type: "サマーインターンシップ",
+      details: [
+        "AWSのサービスを活用したハンズオンワーク"
       ]
     }
   ];
